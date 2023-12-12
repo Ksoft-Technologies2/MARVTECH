@@ -104,7 +104,7 @@ li > a > img{
   height: 5vh;
 }
 
-@media screen and (max-width: 600px) {
+@media screen  {
 /* ==================================contact us styling for mobile========================== */
   .formparent{
     width: 90%;
