@@ -46,6 +46,7 @@ var form = document.getElementById("my-form");
       }).then(response => {
         if (response.ok) {
           status.innerHTML = "Thanks for your submission!";
+          alert("Successfully Submitted");
           status.classList.add("success");
           form.reset()
         } else {
@@ -59,6 +60,7 @@ var form = document.getElementById("my-form");
         }
       }).catch(error => {
         status.innerHTML = "Oops! There was a problem submitting your form"
+        alert("Error, pls try again");
         status.classList.add("error");
       });
     }
