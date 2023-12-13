@@ -103,6 +103,95 @@ animation: status 4s ease forwards;
 li > a > img{
   height: 5vh;
 }
+/*========================= Completed Jobs Styling =====================*/
+.backgroundDiv{
+ text-align: center;
+  background: url("..//img/bulbs.jpg");
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  object-fit: fill;
+}
+.backgroundDiv > h1{
+  color: #fff;
+  margin-top: 9rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+.ourWorks{
+  padding: 1rem;
+  margin: 3rem;
+}
+.ourWorks > h5{
+  color: navy;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+.ParentWorkDiv{
+  display: flex;
+  gap: 1rem;
+}
+.parent{
+  display: flex;
+  gap: 1rem;
+}
+.ParentWorkDiv > img{
+  height: 40vh;
+  width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 600px) {
 /* ==================================contact us styling for mobile========================== */
@@ -116,8 +205,22 @@ li > a > img{
   .map{
     width: 100%;
   }
-   
+   /*========================= Completed Jobs Styling for mobile =====================*/
+   .ParentWorkDiv{
+    flex-direction: column;
+   }
+   .parent{
+    flex-direction: column;
+   }
+   .ParentWorkDiv > img{
+    height: 60vh;
+    width: 100%;
+  }
 }
+
+
+
+
 
 
 
