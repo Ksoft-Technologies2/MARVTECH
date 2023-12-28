@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#top-header{
+    background-color: rgb(86, 86, 139);
+    height: 12vh;
+    display: flex;
+    gap: 20rem;
+    padding: 1rem;
+}
+.logo-div > img{
+  height: 10vh;
+  margin-left: 5rem;
+  padding-bottom: 0.6rem;
+}
+.main-div{
+  display: flex;
+  gap: 3rem;
+}
+ul{
+  list-style-type: none;
+}
+.main-div > li > a{
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.main-div > li > a:hover{
+  color: yellow;
+}
+.hamburger-button{
+    display: none;
+}
+.ParentHero{
+    display: flex;
+   margin-top: 4rem;
+}
+.h11{
+    text-align: center;
+    color: navy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-bottom: -3rem;
+    margin-top: 4rem;
+}
+.hero{
+    text-align: center;
+    background: url("..//img/marv1.jpg");
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+  }
+  .hero > h2{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  .hero > p{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  .hero2{
+    text-align: center;
+    background: url("..//img/marv2.jpg");
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+  }
+  .hero2 > h2{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  .hero2 > p{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  .hero3{
+    text-align: center;
+    background: url("..//img/marvelous2.jpg");
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+  }
+  .hero3 > h2{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  .hero3 > p{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  .hero4{
+    text-align: center;
+    background: url("..//img/marvelous6.jpg");
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+  }
+  .hero4 > h2{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  .hero4 > p{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  .ParentDiv{
+    text-align: center;
+    color: navy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+  .image{
+    background-color: #00A0E3;
+    height: 200vh;
+    padding: 2rem;
+  }
+  .image > h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  .BoxParent{
+    display: flex;
+    gap: 2rem;
+  }
+  .box{
+    background-color: #fff;
+    height: 60vh;
+    padding: 1rem;
+    width: 60%;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+  }
+
+
+@media screen and (max-width:600px) {
+    .ParentHero{
+        flex-direction: column;
+    }
+    .hero,.hero2,.hero3,.hero4{
+        height: 50vh;
+    }
+    .BoxParent{
+        flex-direction: column;
+    }
+}
