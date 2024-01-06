@@ -3,31 +3,46 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-.top{
-    background-color: orange;
-    color: #fff;
-    height: 10vh;
-    margin-top: -1rem;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    padding: 1.5rem;
-    padding-bottom: 1rem;
+#top-header{
+    background-color: rgb(86, 86, 139);
 }
-.top >h1{
-    text-align: center;
+.navbar-brand > img{
+    height: 10vh;
+    margin-right: 6rem;
+    margin-left: 3rem;
+}
+.navbar-nav > a {
+    color: #fff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    margin-right: 1rem;
 }
-#top-header{
-    background-color: #fff;
-    height: 20vh;
-}
-.btn{
-    background-color: red;
+.navbar-nav > a:hover{
+    background-color: blue;
     color: #fff;
-    height: 8vh;
-    width: 20%;
 }
-.image > img{
-    height: 100vh !important;
+.carousel-item > img{
+    height: 90vh;
+}
+.carousel-caption > h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+}
+#TimeDiv{
+    display: flex;
+    gap: 15rem;
+    padding: 2.5rem;
+    margin-left: 15rem;
+}
+.Number > h5{
+    color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Number > a{
+    text-decoration: none;
+    color: red;
+}
+.Number > a > h5{
+    margin-left: -3.5rem;
+    font-size: 25px;
 }
